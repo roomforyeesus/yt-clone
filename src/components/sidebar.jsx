@@ -5,7 +5,7 @@ import { categories } from '../utils/constants';
 
 const sidebar = ({ selectedCategory, setselectedCategory}) => (
     <Stack
-        direction="column"
+        direction="row"
         sx={{
             overflowY: "auto",
             height: { sx: 'auto', md: '95%'},
